@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>SIGN UP</title>
+    <style>
+         body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f0f0f0; /* Light background for better contrast */
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                background-color: aqua;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                color: black;
+            }
+            label {
+                margin-bottom: 15px;
+            }
+            button {
+                margin-top: 10px;
+                padding: 10px;
+                background-color: black;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #444;
+            }
+    </style>
+    </head>
+    <body>
+        <form>
+            <label class="Name">Enter FirstName: <input class="username"  placeholder="Enter first name" required></label><br>
+            <label class="Lname">Enter LastName: <input class="lname" placeholder="Enter your last name" required></label><br>
+            <label class="mnum">Enter your contact number: <input class="mnum" placeholder="Enter mob num" type="text" pattern="\d{10}" required></label><br>
+            <label>Enter preferred password : <input type="password" size="6" placeholder="Enter password" required></label><br><br>
+            <button type="submit">Confirm</button>
+        </form>
+        <a href="file:///C:/Users/HP/Documents/Zoom/LOGIN.html?">Login now</a>
+    </body>
+</html>
