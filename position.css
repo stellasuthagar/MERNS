@@ -1,0 +1,31 @@
+
+body{
+    background-color: lightgreen;
+}
+.parag1
+{
+    display:flex;
+    flex-wrap: wrap-reverse;
+    font-style: oblique;
+    text-shadow:darkcyan;
+    text-align-last: left;
+    
+}
+.parag2
+{
+    color:red;
+    border: 2px solid;
+    border-color: blue;
+    text-transform: uppercase;
+    background-color:coral;
+    position:sticky;
+    
+}
+marquee
+{
+    color:blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:wavy;
+    border:1px solid black;
+    border-style:dotted;
+}
